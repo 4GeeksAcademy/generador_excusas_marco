@@ -1,5 +1,24 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
-
-body{
+body {
     background: white;
+}
+.fondo {
+    position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 100%;
+	font-size: large;
+}
+.texto-superior {
+	position: relative;
+	margin-bottom: 50px;
+}
+.texto-inferior {
+    color: red;
+	margin-top: 60px;
+
+}
+#excuse{
+	text-align: center; 
 }
